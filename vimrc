@@ -1,20 +1,23 @@
-noremap s j
-noremap t k
 noremap n h
-noremap e l
-noremap j t
+noremap e j
+noremap i k
+noremap o l
+noremap h i
+noremap l o
+noremap j e
 noremap k n
-noremap h s
-noremap l e
 
-noremap S T
-noremap T K
 noremap N H
-noremap E L
-noremap J T
+noremap E J
+noremap I K
+noremap O L
+noremap H I
+noremap L O
+noremap J E
 noremap K N
-noremap H S
-noremap L E
+
+noremap ; :
+noremap : ;
 
 set number
 set shiftwidth=4
@@ -25,8 +28,4 @@ set smarttab
 set incsearch
 set hlsearch
 set nowrap
-
-noremap ; :
-noremap : ;
-
 
